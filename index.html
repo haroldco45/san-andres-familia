@@ -4,6 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Optimizador de Bono San Andrés Decameron | VIBRAS POSITIVAS HM</title>
+  <meta name="description" content="Plan familiar a San Andrés con Decameron todo incluido: vuelos desde Rionegro, hotel y tours calculados sobre el bono Aviatur de $6.000.000.">
+  <meta name="theme-color" content="#0e7490">
+
+  <!-- Vista previa del enlace (WhatsApp, Facebook, Telegram, X) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_CO">
+  <meta property="og:site_name" content="VIBRAS POSITIVAS HM">
+  <meta property="og:url" content="https://haroldco45.github.io/san-andres-familia/">
+  <meta property="og:title" content="San Andrés en familia · Decameron todo incluido">
+  <meta property="og:description" content="Vuelos, hotel y tours para 3 adultos calculados sobre el bono Aviatur de $6.000.000. Elige hotel y actividades.">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Johny_Cay.jpg/1280px-Johny_Cay.jpg">
+  <meta property="og:image:secure_url" content="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Johny_Cay.jpg/1280px-Johny_Cay.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1280">
+  <meta property="og:image:height" content="852">
+  <meta property="og:image:alt" content="Johnny Cay y el mar de siete colores de San Andrés">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="San Andrés en familia · Decameron todo incluido">
+  <meta name="twitter:description" content="Vuelos, hotel y tours calculados sobre el bono Aviatur de $6.000.000.">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Johny_Cay.jpg/1280px-Johny_Cay.jpg">
+  <link rel="image_src" href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Johny_Cay.jpg/1280px-Johny_Cay.jpg">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏝️</text></svg>">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
@@ -35,6 +57,17 @@
 
   <!-- Main Container -->
   <main class="max-w-6xl mx-auto px-4 py-8 flex-grow w-full">
+
+    <!-- Hero con foto real de la isla -->
+    <section class="relative overflow-hidden rounded-3xl mb-8 border border-slate-700 shadow-2xl">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Johny_Cay.jpg/1280px-Johny_Cay.jpg" alt="Johnny Cay y el mar de siete colores de San Andrés" class="w-full h-64 sm:h-80 object-cover" fetchpriority="high">
+      <div class="absolute inset-0 bg-gradient-to-t from-slate-950/95 via-slate-900/40 to-transparent"></div>
+      <div class="absolute bottom-0 left-0 right-0 p-5 sm:p-8">
+        <h2 class="text-2xl sm:text-4xl font-black text-white leading-tight">San Andrés en familia</h2>
+        <p class="text-sm sm:text-base text-slate-200 mt-1 max-w-xl">Decameron todo incluido, vuelo directo desde Rionegro y los tours que caben en el bono.</p>
+      </div>
+      <span class="absolute top-3 right-3 text-[10px] text-white/80 bg-black/40 px-2 py-0.5 rounded">Johnny Cay · Foto: Astromario, CC BY 3.0</span>
+    </section>
 
     <!-- KPI Summary Grid -->
     <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
@@ -197,6 +230,10 @@
         Módulo de optimización y liquidación integral de paquetes turísticos Aviatur.
       </div>
     </div>
+    <div class="max-w-6xl mx-auto px-4 mt-4 text-[10px] text-slate-500 leading-relaxed">
+      Fotos de la isla: Wikimedia Commons — «Johny Cay» por Astromario (CC BY 3.0), «Johnny Cay» por Jorge Dos Oceanos (CC BY-SA 3.0), «A view of San Andres from Mirador» (Flickr vía Commons).
+      Fotos de hoteles: sitio oficial de Hoteles Decameron, imágenes de referencia.
+    </div>
   </footer>
 
   <!-- App Logic -->
@@ -210,7 +247,9 @@
         zona: 'Sound Bay (Playas tranquilas)',
         nocheTripleBaja: 1100000,
         nocheTripleMedia: 1250000,
-        desc: 'Opción más económica (deja más saldo libre para toures).'
+        desc: 'Opción más económica (deja más saldo libre para toures).',
+        img: 'https://www.decameron.com/media/uploads/galeriahoteles/destacado-home-sanluis.webp?q=pr:sharp/rs:fill/w:600/h:400/g:ce/f:webp',
+        url: 'https://www.decameron.com/es/hoteles/san-andres-islas/decameron-san-luis/'
       },
       {
         id: 'maryland',
@@ -218,7 +257,9 @@
         zona: 'Spratt Bight (Frente al mar y cerca al centro)',
         nocheTripleBaja: 1250000,
         nocheTripleMedia: 1420000,
-        desc: 'Ubicación céntrica con salida directa a la playa principal.'
+        desc: 'Ubicación céntrica con salida directa a la playa principal.',
+        img: 'https://www.decameron.com/media/uploads/galeriahoteles/maryland-san-andres.webp?q=pr:sharp/rs:fill/w:600/h:400/g:ce/f:webp',
+        url: 'https://www.decameron.com/es/hoteles/san-andres-islas/decameron-maryland/'
       },
       {
         id: 'marazul',
@@ -226,7 +267,9 @@
         zona: 'Orange Hill (Frente a manglares)',
         nocheTripleBaja: 1300000,
         nocheTripleMedia: 1480000,
-        desc: 'Muelle privado con lanchas y vista panorámica.'
+        desc: 'Muelle privado con lanchas y vista panorámica.',
+        img: 'https://www.decameron.com/media/uploads/galeriahoteles/decameron-marazul-panob.jpg?q=pr:sharp/rs:fill/w:600/h:400/g:ce/f:jpg',
+        url: 'https://www.decameron.com/es/hoteles/san-andres-islas/decameron-marazul/'
       }
     ];
 
@@ -236,6 +279,7 @@
         nombre: 'Tour Johnny Cay + Cayo Acuario + Haynes Cay',
         precioTotal3pax: 240000,
         desc: 'Lancha ida y vuelta a los cayos más emblemáticos con avistamiento.',
+        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Johnny_Cay.jpg/500px-Johnny_Cay.jpg',
         seleccionado: true
       },
       {
@@ -250,6 +294,7 @@
         nombre: 'Alquiler Carrito de Golf Privado (Día Completo)',
         precioTotal3pax: 300000,
         desc: 'Libertad total para los 3 adultos: Hoyo Soplador, La Piscinita y West View.',
+        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/A_view_of_San_Andres_from_Mirador_%288352001954%29.jpg/500px-A_view_of_San_Andres_from_Mirador_%288352001954%29.jpg',
         seleccionado: true
       },
       {
@@ -275,6 +320,9 @@
       }
     ];
 
+    // Si una foto externa no carga, se muestra esta de respaldo (Wikimedia Commons)
+    const FOTO_RESPALDO = 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/A_view_of_San_Andres_from_Mirador_%288352001954%29.jpg/500px-A_view_of_San_Andres_from_Mirador_%288352001954%29.jpg';
+
     let hotelSeleccionado = 'sanluis';
 
     function formatCOP(val) {
@@ -291,7 +339,7 @@
       HOTELES.forEach(h => {
         const isSelected = h.id === hotelSeleccionado;
         const div = document.createElement('div');
-        div.className = `p-3.5 rounded-xl border cursor-pointer transition flex flex-col justify-between ${
+        div.className = `rounded-xl border cursor-pointer transition flex flex-col justify-between overflow-hidden ${
           isSelected 
             ? 'bg-cyan-950/40 border-cyan-500 shadow-md shadow-cyan-500/10' 
             : 'bg-slate-900/60 border-slate-700/80 hover:border-slate-600'
@@ -303,14 +351,21 @@
         };
 
         div.innerHTML = `
-          <div>
-            <div class="flex items-center justify-between">
-              <span class="text-xs font-bold text-white">${h.nombre}</span>
-              ${isSelected ? '<i class="fa-solid fa-circle-check text-cyan-400 text-xs"></i>' : ''}
-            </div>
-            <p class="text-[11px] text-slate-400 mt-1">${h.zona}</p>
+          <div class="relative">
+            <img src="${h.img}" alt="${h.nombre}, San Andrés" loading="lazy"
+                 onerror="this.onerror=null;this.src=FOTO_RESPALDO"
+                 class="w-full h-32 object-cover ${isSelected ? '' : 'opacity-80'}">
+            ${isSelected ? '<span class="absolute top-2 left-2 bg-cyan-500 text-white text-[10px] font-bold px-2 py-0.5 rounded-full"><i class="fa-solid fa-circle-check mr-1"></i>Elegido</span>' : ''}
           </div>
-          <div class="mt-2 text-[10px] text-cyan-400 font-medium">${h.desc}</div>
+          <div class="p-3.5 flex flex-col justify-between flex-grow">
+            <div>
+              <span class="text-xs font-bold text-white">${h.nombre}</span>
+              <p class="text-[11px] text-slate-400 mt-1">${h.zona}</p>
+            </div>
+            <div class="mt-2 text-[10px] text-cyan-400 font-medium">${h.desc}</div>
+            <a href="${h.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()"
+               class="mt-2 text-[10px] text-slate-400 hover:text-cyan-300 underline">Ver fotos en decameron.com</a>
+          </div>
         `;
         container.appendChild(div);
       });
@@ -330,6 +385,7 @@
         div.innerHTML = `
           <label class="flex items-start gap-3 cursor-pointer flex-grow">
             <input type="checkbox" onchange="toggleTour(${index})" ${t.seleccionado ? 'checked' : ''} class="mt-1 w-4 h-4 rounded border-slate-600 bg-slate-900 text-cyan-500 focus:ring-0">
+            ${t.img ? `<img src="${t.img}" alt="" loading="lazy" onerror="this.remove()" class="w-16 h-12 object-cover rounded-lg flex-shrink-0">` : ''}
             <div>
               <div class="text-xs font-bold text-slate-100">${t.nombre}</div>
               <p class="text-[11px] text-slate-400 mt-0.5">${t.desc}</p>
